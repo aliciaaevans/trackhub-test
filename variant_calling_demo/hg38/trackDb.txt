@@ -22,34 +22,34 @@ pairEndsByName .
 pairSearchRange 10000
 visibility pack
 
-track normal1bam
-bigDataUrl normal-1.bam
-shortLabel normal1bam
-longLabel normal1bam
+track allnormedvcfgz
+bigDataUrl all.normed.vcf.gz
+shortLabel allnormedvcfgz
+longLabel allnormedvcfgz
 type vcfTabix
 chromosomes chr6,chr20
 visibility pack
 
-track normal1bam
-bigDataUrl normal-1.bam
-shortLabel normal1bam
-longLabel normal1bam
+track snpefftumornormalvcfgz
+bigDataUrl snpeff.tumor-normal.vcf.gz
+shortLabel snpefftumornormalvcfgz
+longLabel snpefftumornormalvcfgz
 type vcfTabix
 chromosomes chr6,chr20
 visibility pack
 
-track normal1bam
-bigDataUrl normal-1.bam
-shortLabel normal1bam
-longLabel normal1bam
+track annvcfgz
+bigDataUrl ann.vcf.gz
+shortLabel annvcfgz
+longLabel annvcfgz
 type vcfTabix
 chromosomes chr6,chr20
 visibility pack
 
-track normal1bam
-bigDataUrl normal-1.bam
-shortLabel normal1bam
-longLabel normal1bam
+track normedtumornormalvcfgz
+bigDataUrl normed.tumor-normal.vcf.gz
+shortLabel normedtumornormalvcfgz
+longLabel normedtumornormalvcfgz
 type vcfTabix
 chromosomes chr6,chr20
 visibility pack

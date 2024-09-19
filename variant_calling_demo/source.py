@@ -28,7 +28,7 @@ for path in glob.glob(os.path.join("trackhub-test/variant_calling_demo/hg38", "*
     # Each track is added to the trackdb
     trackdb.add_tracks(bam)
 
-for file in glob.glob(os.path.join("trackhub-test/variant_calling_demo/hg38", "*.vcf.gz")):
+for path in glob.glob(os.path.join("trackhub-test/variant_calling_demo/hg38", "*.vcf.gz")):
     file = os.path.basename(path)
     label = re.sub('[^0-9a-zA-Z]+', '', file)
     vcf = trackhub.Track(
