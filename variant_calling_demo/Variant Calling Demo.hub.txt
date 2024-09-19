@@ -1,0 +1,5 @@
+hub hub
+shortLabel vcf_demo
+longLabel variant_calling_demo
+genomesFile Variant Calling Demo.genomes.txt
+email alicia.evans@nih.gov

@@ -1,0 +1,55 @@
+track tumor1bam
+bigDataUrl tumor-1.bam
+shortLabel tumor1bam
+longLabel tumor1bam
+type bam
+chromosomes chr6,chr20
+description tumor1bam
+maxWindowToDraw 200000
+pairEndsByName .
+pairSearchRange 10000
+visibility pack
+
+track normal1bam
+bigDataUrl normal-1.bam
+shortLabel normal1bam
+longLabel normal1bam
+type bam
+chromosomes chr6,chr20
+description normal1bam
+maxWindowToDraw 200000
+pairEndsByName .
+pairSearchRange 10000
+visibility pack
+
+track normal1bam
+bigDataUrl normal-1.bam
+shortLabel normal1bam
+longLabel normal1bam
+type vcfTabix
+chromosomes chr6,chr20
+visibility pack
+
+track normal1bam
+bigDataUrl normal-1.bam
+shortLabel normal1bam
+longLabel normal1bam
+type vcfTabix
+chromosomes chr6,chr20
+visibility pack
+
+track normal1bam
+bigDataUrl normal-1.bam
+shortLabel normal1bam
+longLabel normal1bam
+type vcfTabix
+chromosomes chr6,chr20
+visibility pack
+
+track normal1bam
+bigDataUrl normal-1.bam
+shortLabel normal1bam
+longLabel normal1bam
+type vcfTabix
+chromosomes chr6,chr20
+visibility pack
